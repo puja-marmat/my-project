@@ -1,0 +1,25 @@
+:root {
+  --brand-green: #22c55e;
+  --brand-green-dark: #16a34a;
+  --primary: #1f6fd1;
+  --primary-hover: #1a5fb5;
+  --text-dark: #1f2937;
+  --text-muted: #6b7280;
+  --border: #d1d5db;
+  --bg-page: #eef2fb;
+  --bg-card: #ffffff;
+  --radius: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  background: var(--bg-page);
+  color: var(--text-dark);
+  min-height: 100vh;
+}
